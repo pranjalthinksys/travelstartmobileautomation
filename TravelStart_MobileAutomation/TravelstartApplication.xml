@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression">
+
+<!--  	<listeners>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+		<listener class-name="utilities.Listeners" />
+
+	</listeners>-->
+
+	<test name="From Login Screen">
+
+<groups>
+<run>
+<include name="Sanity">
+</include>
+</run>
+</groups>
+
+		<classes>
+
+		      <class name="Mobile.GuestLogin" />	
+              <class name="Mobile.demo" />  	
+
+		</classes>
+
+	</test> <!-- Test -->
+    </suite> <!-- Suite -->

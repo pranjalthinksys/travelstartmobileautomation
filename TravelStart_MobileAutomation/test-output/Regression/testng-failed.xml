@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MobiWeb_Test(failed)">
+    <classes>
+      <class name="Mobile.GuestLogin">
+        <methods>
+          <include name="ValidateGuestLoginfromHomeScreen"/>
+          <include name="flush"/>
+          <include name="reportEmail"/>
+          <include name="report"/>
+          <include name="appium_server_running"/>
+          <include name="appium_server_stop"/>
+        </methods>
+      </class> <!-- Mobile.GuestLogin -->
+    </classes>
+  </test> <!-- MobiWeb_Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->
